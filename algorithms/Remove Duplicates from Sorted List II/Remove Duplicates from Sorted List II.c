@@ -54,7 +54,7 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
             while(q && p->val == q->val) {
                 q=q->next;
             }
-            //find the q
+            //find the q and you need change the head
             head = p = q;
         }
 
@@ -81,6 +81,35 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
     }
     return head;
 }
+
+/*
+	After i have submited,i saw the code from the answer is the code new a new list and assign the value.you can learn from it. the code is so short and look is very good.
+	
+	
+struct ListNode* deleteDuplicates2(struct ListNode* head) {
+    struct ListNode* t1 = (struct ListNode*)malloc(sizeof(struct ListNode));
+    struct ListNode* res=t1,*t2=head;
+    t1->next = head;
+    int f,v;
+    while(t2) {
+        f = 0;
+        v = t2->val;
+        while(t2->next && t2->next->val == v) {
+            t2 = t2->next;
+            f = 1;
+        }
+        if (f==0) {
+            t1 = t1->next;
+        }else {
+            t1->next = t2->next;
+        }
+        t2 = t2->next;
+    }
+    return res->next;
+}
+
+
+*/
 
 
 
