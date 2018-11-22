@@ -83,9 +83,9 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
 }
 
 /*
-	After i have submited,i saw the code from the answer is the code new a new list and assign the value.you can learn from it. the code is so short and look is very good.
-	
-	
+After i have submited,i saw the code from the answer is the code new a new list and assign the value.
+you can learn from it. the code is so short and look is very good.
+
 struct ListNode* deleteDuplicates2(struct ListNode* head) {
     struct ListNode* t1 = (struct ListNode*)malloc(sizeof(struct ListNode));
     struct ListNode* res=t1,*t2=head;
@@ -107,8 +107,6 @@ struct ListNode* deleteDuplicates2(struct ListNode* head) {
     }
     return res->next;
 }
-
-
 */
 
 
