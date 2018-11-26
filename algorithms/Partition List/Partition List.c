@@ -42,30 +42,45 @@ void printNode(struct ListNode *head) {
         head = head->next;
     }
 }
+
+
+
+// you should now,we change the data link pointer so the head position will change
+// so we need a new link to save the after change link
+
 struct ListNode* partition(struct ListNode* head, int x) {
     // empty node or one node
-    if (!head->next || !head) {
+    if ( !head || !head->next) {
         return head;
     }
     //find >x node position
     struct ListNode *cur,*pre,*p;
     //why not pre = head->next ?? because you want to assign value to the pre
     // if you do not malloc the size,he can not find where put the pre->next
+
     pre = (struct ListNode *)malloc(sizeof(struct ListNode));
-    p = head;
+    p = (struct ListNode *)malloc(sizeof(struct ListNode));
+
     pre->next = head;
+    p = pre;
+
+    cur = head;
+
+
     while(pre->next && pre->next->val < x) {
         pre=pre->next;
     }
 
     // the p->next is val>x of node
     cur = pre;
+
     while(cur->next) {
         if (cur->next->val < x) {
 
             struct ListNode *tmp;
+
             // delete the node tmp, and move the cur
-            tmp = cur->next;
+            tmp = cur->next;  //1
             cur->next = tmp->next;
 
             // insert the node tmp after the pre
@@ -73,11 +88,15 @@ struct ListNode* partition(struct ListNode* head, int x) {
             pre->next = tmp;
 
             pre = pre->next;
+
         } else {
+            //printf("%d\n",cur->next->val);
             cur = cur->next;
         }
+
     }
-    return p;
+    return p->next;
+
 }
 
 
@@ -86,9 +105,7 @@ int main() {
     struct ListNode *head;
     head = createList();
 
-
-    head = partition(head,2);
+    head = partition(head,3);
     printNode(head);
-
     return 0;
 }
