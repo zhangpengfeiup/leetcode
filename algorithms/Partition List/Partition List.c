@@ -99,7 +99,7 @@ struct ListNode* partition(struct ListNode* head, int x) {
 
 }
 
-//the other method to solve the problem,put two list,in the last,merge it.
+// the other method to solve the problem,put two list,in the last,merge it.
 /*
 	struct ListNode* partition(struct ListNode* head, int x) {
       // empty node or one node
