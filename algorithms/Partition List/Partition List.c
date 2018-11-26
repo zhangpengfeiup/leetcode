@@ -99,6 +99,48 @@ struct ListNode* partition(struct ListNode* head, int x) {
 
 }
 
+//the other method to solve the problem,put two list,in the last,merge it.
+/*
+	struct ListNode* partition(struct ListNode* head, int x) {
+      // empty node or one node
+    if ( !head || !head->next) {
+        return head;
+    }
+    struct ListNode *left,*right,*lhead,*rhead;
+    // you should know the left and the right is the first address.
+    // and the struct list node pointer is will change but the address can not change
+    left = (struct ListNode *)malloc(sizeof(struct ListNode));
+    right = (struct ListNode *)malloc(sizeof(struct ListNode));
+
+    lhead = left;
+    rhead = right;
+
+    left->next = NULL;
+    right->next = NULL;
+    while(head) {
+        struct ListNode *temp = head->next;
+        if (head->val < x) {
+            lhead->next = head;
+            // you need notice the left->next = head
+            // and left->next->next = head->next; so we need a temporary variable save the head->next
+            head->next=NULL;
+            lhead = lhead->next;
+        } else {
+            rhead->next = head;
+            head->next=NULL;
+            rhead=rhead->next;
+        }
+        head = temp;
+    }
+
+
+
+    lhead->next=right->next;
+
+    return left->next;
+	}
+*/
+
 
 
 int main() {
