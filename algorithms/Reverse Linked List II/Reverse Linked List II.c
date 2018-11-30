@@ -50,8 +50,8 @@ void printNode(struct ListNode *head) {
  * In the problem,we need know we use the pre->next to make the pointer back on the linklist.
  * And we use the last = cur->next to save the reverseList head pointer. in 1->2->3->4->5->NULL,cur->next is save 2
  * After understand it.Find the linklist is so funny. Also, We need deal it carefully.
- * Beside, I find that when i write the code and draw the flow of the problem in the picture. I understand it clearly.
- * So,in the future,I will draw the flow of problem and write the code in the paper.After know it carefully. Code to do it.
+ * Beside, I find that when i write the code and draw the flow of the problem in the paper. I understand it clearly.
+ * So,in the future,I will draw the flow of problem and write the code in the paper.After know it carefully. Code to it.
  */
 
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n) {
