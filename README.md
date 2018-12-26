@@ -10,4 +10,4 @@
 # Backtracking
 | # | Title  | Solution |
 |-------| ------- | -------- |
-|40| Combination Sum II  | [C]() |
+|40| Combination Sum II  | [C](./Combination Sum II/Combination Sum II.c) |
