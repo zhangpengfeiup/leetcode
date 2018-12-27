@@ -11,3 +11,4 @@
 | # | Title  | Solution |
 |-------| ------- | -------- |
 |40| Combination Sum II  | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Combination%20Sum%20II/Combination%20Sum%20II.c) |
+|771| Jewels and Stones | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Jewels%20and%20Stones/Jewels%20and%20Stones.c)
