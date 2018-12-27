@@ -1,5 +1,10 @@
 # leetcode
 
+# String
+| # | Title | Solution |
+|----|-----|-------|
+|929| Unique Email Addresses | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Unique%20Email%20Addresses/Unique%20Email%20Addresses.c)
+
 # HASH TABLE:
 
 | # | Title  | Solution |
