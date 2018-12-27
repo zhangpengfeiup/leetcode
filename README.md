@@ -10,4 +10,4 @@
 # Backtracking
 | # | Title  | Solution |
 |-------| ------- | -------- |
-|40| Combination Sum II  | [C]() |
+|40| Combination Sum II  | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Combination%20Sum%20II/Combination%20Sum%20II.c) |
