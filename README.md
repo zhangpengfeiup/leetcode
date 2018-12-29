@@ -3,6 +3,7 @@
 # String
 | # | Title | Solution |
 |----|-----|-------|
+|125|Valid Palindrome|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Valid%20Palindrome/Valid%20Palindrome.c)|
 |929| Unique Email Addresses | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Unique%20Email%20Addresses/Unique%20Email%20Addresses.c)
 
 # HASH TABLE:
