@@ -18,4 +18,6 @@
 | # | Title  | Solution |
 |-------| ------- | -------- |
 |40| Combination Sum II  | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Combination%20Sum%20II/Combination%20Sum%20II.c) |
+|79 | Word Search |[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Word%20Search/Word%20Search.c)|
+
 
