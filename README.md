@@ -21,3 +21,7 @@
 |79 | Word Search |[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Word%20Search/Word%20Search.c)|
 
 
+# Dynamic Programming
+| # | Title  | Solution |
+|-------| ------- | -------- |
+|121| Best Time to Buy and Sell Stock  | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Best%20Time%20to%20Buy%20and%20Sell%20Stock/Best%20Time%20to%20Buy%20and%20Sell%20Stock.c) |
