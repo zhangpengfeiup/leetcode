@@ -1,5 +1,10 @@
 # leetcode
 
+## Array
+| # | Title | Solution |
+|----|-----|-------|
+|1|Two Sum|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Two%20Sum/Two%20Sum.c)|
+|3|3Sum|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/3Sum/3Sum%20cleanCode.c)|
 ## String
 | # | Title | Solution |
 |----|-----|-------|
