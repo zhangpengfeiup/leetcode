@@ -6,7 +6,8 @@ int comp(const void*a,const void*b)
     return *(int *)a - * (int *)b;
 }
 
-// 这道题主要考察，如何对结果进行出重处理，需要考虑清楚，边界条件这些
+// 这道题主要考察，如何对结果进行出重处理，需要考虑清楚边界条件这些限制条件，同时需要自己多想一些case进行测试
+// 于项目来说，合理和正确的使用单元测试是不是更好一点
 
 int** fourSum(int* nums, int numsSize, int target, int* returnSize)
 {
