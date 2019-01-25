@@ -12,6 +12,7 @@
 |3|Longest Substring Without Repeating Characters|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Longest%20Substring%20Without%20Repeating%20Characters/Longest%20Substring%20Without%20Repeating%20Characters.c)|
 |5| Longest Palindromic Substring | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Longest%20Palindromic%20Substring/Longest%20Palindromic%20Substring.c)
 |6| ZigZag Conversion | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/ZigZag%20Conversion/ZigZag%20Conversion.c)
+|8| String to Integer (atoi) | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/String%20to%20Integer%20(atoi)/String%20to%20Integer%20(atoi).c)
 |125|Valid Palindrome|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Valid%20Palindrome/Valid%20Palindrome.c)|
 |929| Unique Email Addresses | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Unique%20Email%20Addresses/Unique%20Email%20Addresses.c)
 
