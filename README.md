@@ -42,3 +42,4 @@
 |-------| ------- | -------- |
 |7| Reverse Integer | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Reverse%20Integer/Reverse%20Integer.c)
 |12| Integer to Roman | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Integer%20to%20Roman/Integer%20to%20Roman.c)
+|13| Roman to Integer | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Roman%20to%20Integer/Roman%20to%20Integer.c)
