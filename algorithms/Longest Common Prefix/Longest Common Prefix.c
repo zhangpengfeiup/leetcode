@@ -11,16 +11,15 @@ char* longestCommonPrefix(char** strs,int strsSize) {
     char *ret = (char *)malloc(sizeof(char) * len + 1);
 
     // strs[0][0] strs[1][0] strs[2][0]
+
     for (i = 0;i < len;i++) {
         for (j = 0;j < strsSize;j++) {
             if (strs[0][i] != strs[j][i]) {
                  ret[l] = '\0';
                  return ret;
             }
-            if (j == strsSize-1) {
-                ret[l++] = strs[0][i];
-            }
         }
+        ret[l++] = strs[0][i];
     }
     ret[l] = '\0';
     return ret;
