@@ -28,6 +28,7 @@
 ## Backtracking
 | # | Title  | Solution |
 |-------| ------- | -------- |
+|17| Letter Combinations of a Phone Number | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Letter%20Combinations%20of%20a%20Phone%20Number/Letter%20Combinations%20of%20a%20Phone%20Number.c)
 |40| Combination Sum II  | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Combination%20Sum%20II/Combination%20Sum%20II.c) |
 |79 | Word Search |[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Word%20Search/Word%20Search.c)|
 
@@ -36,7 +37,6 @@
 | # | Title  | Solution |
 |-------| ------- | -------- |
 |5| Longest Palindromic Substring | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Longest%20Palindromic%20Substring/Longest%20Palindromic%20Substring%20of%20Dynamic%20Program.c)
-|17| Letter Combinations of a Phone Number | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Letter%20Combinations%20of%20a%20Phone%20Number/Letter%20Combinations%20of%20a%20Phone%20Number.c)
 |121| Best Time to Buy and Sell Stock  | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Best%20Time%20to%20Buy%20and%20Sell%20Stock/Best%20Time%20to%20Buy%20and%20Sell%20Stock.c) |
 
 ## Math
