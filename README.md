@@ -29,6 +29,7 @@
 ## Backtracking
 | # | Title  | Solution |
 |-------| ------- | -------- |
+|17| Letter Combinations of a Phone Number | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Letter%20Combinations%20of%20a%20Phone%20Number/Letter%20Combinations%20of%20a%20Phone%20Number.c)
 |40| Combination Sum II  | [C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Combination%20Sum%20II/Combination%20Sum%20II.c) |
 |79 | Word Search |[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Word%20Search/Word%20Search.c)|
 
