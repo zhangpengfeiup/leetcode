@@ -6,7 +6,7 @@
 |1|Two Sum|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Two%20Sum/Two%20Sum.c)|
 |3|3Sum|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/3Sum/3Sum%20cleanCode.c)|
 |18|4Sum|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/4Sum/4Sum.c)|
-|27|Remove Element|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/4Sum/4Sum.c)|
+|27|Remove Element|[C](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Remove%20Element/Remove%20Element.md)|
 ## String
 | # | Title | Solution |
 |----|-----|-------|
